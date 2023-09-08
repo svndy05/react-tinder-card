@@ -1,9 +1,9 @@
 const React = require('react')
 const { useSpring, animated } = require('@react-spring/web')
-
+if(window){
 const height = window.innerHeight
 const width = window.innerWidth
-
+}
 const settings = {
   maxTilt: 25, // in deg
   rotationPower: 50,
